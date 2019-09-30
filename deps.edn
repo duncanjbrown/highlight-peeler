@@ -1,2 +1,5 @@
 {:deps
- {org.clojure/data.csv {:mvn/version "0.1.4"}}}
+ {org.clojure/data.csv {:mvn/version "0.1.4"}}
+ :aliases
+ {:dev {:extra-paths ["dev"]}
+  :test {:extra-paths ["test"]}}}
